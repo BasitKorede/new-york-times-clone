@@ -1,0 +1,45 @@
+.navigation {
+  width: 100%;
+  justify-content: space-between;
+  padding: 5px 15px;
+  flex-grow: 1;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.nav-bar-image {
+  width: 15px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #b2beb5;
+}
+
+.nav-bar-list {
+  margin: 5px 10px;
+}
+
+.space-comos {
+  font-weight: bolder;
+}
+
+.nav-button {
+  padding: 10px;
+  background-color: rgb(83, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  color: #fff;
+  flex-grow: 1;
+}
+
+.margin-right {
+  margin-right: 30px;
+}
+
+.nav-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+

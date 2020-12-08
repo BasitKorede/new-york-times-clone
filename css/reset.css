@@ -1,1 +1,24 @@
 /* Base styles */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: helvetica, Arial, sans-serif;
+}
+
+main {
+  line-height: 2.5rem;
+  font-size: 120%;
+}
+
+p {
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

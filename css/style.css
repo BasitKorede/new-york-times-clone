@@ -43,3 +43,49 @@
   cursor: pointer;
 }
 
+.article-header {
+  margin: 40px 10px 10px 10px;
+  font-style: italic;
+  font-size: 2.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  max-width: 55%;
+}
+
+.article-image {
+  width: 65%;
+  display: block;
+}
+
+.article-image-details {
+  font-size: 80%;
+  max-width: 90%;
+}
+
+.margin-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+.inflation-theory-section {
+  background-image: url(../images/inflation-theory-image.png);
+  width: 80%;
+  /* background-position: center;  */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.inflation-theory-section-paragraph{
+  max-width: 20%;
+  font-size: 70%;
+}
+.inflation-theory-section-paragraph-first-div{
+  margin: 17% 8px 0 40px;
+  line-height: normal;
+}
+.inflation-theory-section-paragraph-second-div{
+  margin: 31%   30px;
+  line-height: normal;
+}
+.bolder{
+  font-size: 80%;
+  font-weight: bolder;
+}

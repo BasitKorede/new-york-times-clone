@@ -14,7 +14,11 @@
 }
 
 .border-bottom {
-  border-bottom: 1px solid #b2beb5;
+  border-bottom: 1px solid  rgb(226, 226, 226);
+}
+
+.border-bottom2{
+  border-bottom: 1px solid #666;
 }
 
 .nav-bar-list {
@@ -54,7 +58,8 @@
 .article-image {
   display: block;
 }
-.align-center{
+
+.align-center {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -100,6 +105,10 @@
   font-weight: bolder;
 }
 
+.telescope-caption {
+  color: #808080;
+}
+
 .space-and-astronomy {
   width: 65%;
   border-top: 1px solid #000;
@@ -112,15 +121,15 @@
   font-weight: bolder;
 }
 
-.space-and-astronomy-div {
-}
 .space-and-astronomy-anchore {
   padding: 10px;
+  width: 50%;
 }
 
 .space-and-astronomy-image {
   width: 100%;
 }
+
 .figcaption {
   color: #808080;
   width: 100%;
@@ -139,25 +148,100 @@
 .display-inline-block {
   display: inline-block;
 }
+
 .most-popular {
   width: 28%;
   border-top: 1px solid #000;
   margin-left: 10px;
 }
+
 .most-popular-header {
   font-size: 80%;
 }
+
 .most-popular-headings {
   border-top: 1px solid rgb(226, 226, 226);
   border-bottom: 1px solid rgb(226, 226, 226);
-  padding: 8px 0px;
+  padding: 16px 0;
   width: 100%;
   line-height: 1.425rem;
 }
-.most-popular-anchor{
-  font-size: 1.125rem;
+
+.most-popular-anchor {
+  font-size: 1.325rem;
   line-height: 1.125rem;
   color: rgb(18, 18, 18);
-  font-weight: 500;
-  font-family: ;
+  font-weight: normal;
+  font-family: serif;
+}
+
+.editors-picks-header{
+  margin: 10px 0;
+}
+.margin-bottom{
+  margin-bottom: 200px;
+}
+
+.footer-header {
+  text-transform: uppercase;
+  line-height: 15px;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  display: flex;
+  font-size: 13px;
+}
+
+.footer {
+  margin: 30px;
+  border-top: 1px solid rgb(226, 226, 226);
+  
+}
+.new-york-times-image-anchor{
+  border-top: 1px solid rgb(226, 226, 226);
+  display: block;
+  margin-top: 1px;
+}
+.new-york-times-image{
+  margin-top: 10px;
+}
+
+.footer-div {
+  flex-grow: 1;
+  padding: 20px 0;
+}
+
+.footer-unordered-list li {
+  padding: 6px 0;
+  font-size: 93%;
+}
+
+.subscribe-svg {
+  width: 13px;
+  height: 13px;
+}
+
+.font-bolder {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.font-reduction {
+  font-size: 77%;
+}
+li a:hover{
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+.nyt-copyright{
+  font-size: 73%;
+  padding: 10px;
+  color:#666;
+  font-weight: normal;
+}
+.border-left{
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 10px;
+}
+.padding-top{
+  margin-top: 10px;
 }

@@ -3,6 +3,7 @@
   justify-content: space-between;
   padding: 5px 15px;
   flex-grow: 1;
+  align-items: center;
 }
 
 .display-flex {
@@ -14,10 +15,10 @@
 }
 
 .border-bottom {
-  border-bottom: 1px solid  rgb(226, 226, 226);
+  border-bottom: 1px solid rgb(226, 226, 226);
 }
 
-.border-bottom2{
+.border-bottom2 {
   border-bottom: 1px solid #666;
 }
 
@@ -68,6 +69,9 @@
 .width-80-percent {
   width: 80%;
 }
+.width-100{
+  width: 100%;
+}
 
 .article-image-details {
   font-size: 80%;
@@ -77,6 +81,14 @@
 .margin-auto {
   margin-right: auto;
   margin-left: auto;
+}
+
+.inflation-theory-div{
+  font-size: .875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  width: 80%;
+  color: #666;
 }
 
 .inflation-theory-section {
@@ -106,8 +118,12 @@
 }
 
 .telescope-caption {
-  color: #808080;
+  color: #666;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  margin-bottom:40px;
 }
+
 
 .space-and-astronomy {
   width: 65%;
@@ -175,10 +191,11 @@
   font-family: serif;
 }
 
-.editors-picks-header{
+.editors-picks-header {
   margin: 10px 0;
 }
-.margin-bottom{
+
+.margin-bottom {
   margin-bottom: 200px;
 }
 
@@ -194,14 +211,15 @@
 .footer {
   margin: 30px;
   border-top: 1px solid rgb(226, 226, 226);
-  
 }
-.new-york-times-image-anchor{
+
+.new-york-times-image-anchor {
   border-top: 1px solid rgb(226, 226, 226);
   display: block;
   margin-top: 1px;
 }
-.new-york-times-image{
+
+.new-york-times-image {
   margin-top: 10px;
 }
 
@@ -229,19 +247,23 @@
 .font-reduction {
   font-size: 77%;
 }
-li a:hover{
+
+li a:hover {
   border-bottom: 1px solid rgb(226, 226, 226);
 }
-.nyt-copyright{
+
+.nyt-copyright {
   font-size: 73%;
   padding: 10px;
-  color:#666;
+  color: #666;
   font-weight: normal;
 }
-.border-left{
+
+.border-left {
   border-left: 1px solid rgb(226, 226, 226);
   padding-left: 10px;
 }
-.padding-top{
+
+.padding-top {
   margin-top: 10px;
 }

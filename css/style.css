@@ -1,9 +1,12 @@
 .navigation {
-  width: 100%;
   justify-content: space-between;
   padding: 5px 15px;
   flex-grow: 1;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
 }
 
 .display-flex {
@@ -31,16 +34,22 @@
 }
 
 .nav-button {
-  padding: 10px;
+  padding: 8px 4px;
   background-color: rgb(83, 123, 149);
   border: 1px solid rgb(50, 104, 145);
   border-radius: 3px;
   color: #fff;
   flex-grow: 1;
+  font-size: 76%;
 }
 
 .margin-right {
   margin-right: 30px;
+}
+
+.decorate-text {
+  text-decoration: underline;
+  color: #00f;
 }
 
 .nav-button:hover {
@@ -49,7 +58,7 @@
 }
 
 .article-header {
-  margin: 40px 10px 10px 10px;
+  margin: 90px 10px 10px 10px;
   font-style: italic;
   font-size: 2.5rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -60,22 +69,77 @@
   display: block;
 }
 
+.article-image-details {
+  width: 60%;
+  line-height: 19px;
+  color: #666;
+  font-size: 80%;
+  margin: 10px 0 10px 10%;
+}
+
+.repoter {
+  color: #808080;
+  font-size: 13px;
+}
+
+.dennis-overbye {
+  margin: 30px 0 5px 30%;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.dennis-overbye-ul {
+  margin: 0 0 5px 30%;
+  font-size: 13px;
+}
+
 .align-center {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.width-80-percent {
-  width: 80%;
+.position-relative {
+  position: relative;
 }
-.width-100{
+
+.aside-editors-pick {
+  position: absolute;
+  right: 48px;
+  width: 210px;
+}
+
+.aside-anchor {
+  width: 100%;
+  display: block;
+  padding-bottom: 8px;
+}
+
+.aside-figure {
   width: 100%;
 }
 
-.article-image-details {
-  font-size: 80%;
-  max-width: 90%;
+.aside-img-wrapper {
+  width: 40%;
+}
+
+.aside-img {
+  width: 100%;
+}
+
+.aside-figcaption {
+  width: 60%;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 8px;
+}
+
+.width-80-percent {
+  width: 80%;
+}
+
+.width-100 {
+  width: 100%;
 }
 
 .margin-auto {
@@ -83,8 +147,8 @@
   margin-left: auto;
 }
 
-.inflation-theory-div{
-  font-size: .875rem;
+.inflation-theory-div {
+  font-size: 0.875rem;
   line-height: 1.125rem;
   font-weight: 400;
   width: 80%;
@@ -121,9 +185,8 @@
   color: #666;
   font-size: 0.875rem;
   line-height: 1.125rem;
-  margin-bottom:40px;
+  margin-bottom: 40px;
 }
-
 
 .space-and-astronomy {
   width: 65%;
@@ -264,6 +327,22 @@ li a:hover {
   padding-left: 10px;
 }
 
-.padding-top {
+.copyright-ul {
   margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.fixed-position {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.footer-paragraph {
+  margin-top: 20px;
+  padding: 20px 0;
+  border-top: 1px solid #000;
+  text-align: center;
+  font-size: 90%;
 }

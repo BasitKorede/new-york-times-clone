@@ -10,17 +10,17 @@
     <nav class="navigation display-flex border-bottom">
       <ul class="display-flex">
         <li class="nav-bar-list">
-          <a href=""> <img class="nav-bar-image" src="./images/menu-bar.svg" alt="menu bar"/></a>
+          <a href="#"> <img class="nav-bar-image" src="./images/menu-bar.svg" alt="menu bar"/></a>
         </li>
         <li class="nav-bar-list">
-          <a href=""> <img class="nav-bar-image" src="./images/search.svg" alt="search image"/></a>
+          <a href="#"> <img class="nav-bar-image" src="./images/search.svg" alt="search image"/></a>
         </li>
         <li class="nav-bar-list">
-          <a href=""><strong class="space-comos">SPACE & COMOS</strong></a>
+          <a href="#"><strong class="space-comos">SPACE & COMOS</strong></a>
         </li>
       </ul>
       <div>
-        <a href=""><img src="./images/new-york-times.svg" alt="new york times"/></a>
+        <a href="#"><img src="./images/new-york-times.svg" alt="new york times"/></a>
       </div>
       <div>
         <button class="nav-button" type="button">SUBSCRIBE NOW</button>
@@ -40,12 +40,14 @@
         <p class="article-image-details">
           Alan Guth was one of the first physicists to hypothesize the existence of inflation, which
           explains how the universe expanded so uniformly and so quickly in the instant after the
-          Big Bang 13.8 billion years ago.
+          Big Bang 13.8 billion years ago.<span class="repoter"
+            >Rick Friedman for The New York Times</span
+          >
         </p>
 
         <div>
-          <span> BY</span><a href="" class="border-bottom">Dennis Overbye</a>
-          <ul>
+          <a href="#" class="border-bottom dennis-overbye"> By Dennis Overbye</a>
+          <ul class="dennis-overbye-ul">
             <li><time datetime="2014-03-17">March 17,2014</time></li>
           </ul>
         </div>
@@ -81,23 +83,68 @@
             inflation, looked right.
           </p>
         </div>
+        <aside class="aside-editors-pick">
+          <h2 class="most-popular-header">Editor's Pick</h2>
 
-        <div class="align-center ">
+          <a href="#" class="aside-anchor">
+            <figure class="display-flex aside-figure">
+              <div class="aside-img-wrapper">
+                <img
+                  class="aside-img"
+                  src="./images/editors-pick-image1.jpg"
+                  alt="celebrity pregnanacy"
+                />
+              </div>
+              <figcaption class="aside-figcaption">
+                A Pandemic Is Hard Enough. For Some, Being Single Has Made It Harder.
+              </figcaption>
+            </figure>
+          </a>
+          <a href="#" class="aside-anchor">
+            <figure class="display-flex aside-figure">
+              <div class="aside-img-wrapper">
+                <img
+                  class="aside-img"
+                  src="./images/editors-pick-image2.jpg"
+                  alt="celebrity pregnanacy"
+                />
+              </div>
+              <figcaption class="aside-figcaption">
+                The Joy of Watching Other People Clean.
+              </figcaption>
+            </figure>
+          </a>
+          <a href="#" class="aside-anchor">
+            <figure class="display-flex aside-figure">
+              <div class="aside-img-wrapper">
+                <img
+                  class="aside-img"
+                  src="./images/editors-pick-image3.jpg"
+                  alt="celebrity pregnanacy"
+                />
+              </div>
+              <figcaption class="aside-figcaption">
+                This Parenting Book Actually Made Me a Better Parent.
+              </figcaption>
+            </figure>
+          </a>
+        </aside>
+
+        <div class="align-center position-relative">
           <p>
             Reaching back across 13.8 billion years to
-            <a href="" title="" rel="noopener noreferrer" target="_blank"
-              >the first sliver of cosmic time</a
-            >
+            <a class="decorate-text" href="#" target="_blank">the first sliver of cosmic time</a>
             with telescopes at the South Pole, a team of astronomers led by John M. Kovac of the
             Harvard-Smithsonian Center for Astrophysics detected ripples in the fabric of space-time
             — so-called
-            <a class="" href="#"> title="" gravitational waves</a>
+            <a class="decorate-text" href="#">gravitational waves</a>
 
             — the signature of a universe being wrenched violently apart when it was roughly a
             trillionth of a trillionth of a trillionth of a second old. They are the long-sought
             smoking-gun evidence of inflation, proof, Dr. Kovac and his colleagues say, that Dr.
             Guth was correct.
           </p>
+
           <p>
             Inflation has been the workhorse of cosmology for 35 years, though many, including Dr.
             Guth, wondered whether it could ever be proved.
@@ -107,6 +154,7 @@
             recent discovery of dark energy pushing the universe apart, or of the Big Bang itself.
             It would open vast realms of time and space and energy to science and speculation.
           </p>
+
           <p>
             Confirming inflation would mean that the universe we see, extending 14 billion
             light-years in space with its hundreds of billions of galaxies, is only an infinitesimal
@@ -246,7 +294,9 @@
             variant of inflation, known as chaotic inflation, in 1983, was about to go on vacation
             in the Caribbean last week when Chao-Lin Kuo, a Stanford colleague and a member of Dr.
             Kovac’s team,
-            <a href="#" target="_blank">knocked on his door with a bottle of Champagn </a>
+            <a class="decorate-text" href="#" target="_blank"
+              >knocked on his door with a bottle of Champagn
+            </a>
             to tell him the news.
           </p>
           <p>Confused, Dr. Linde called out to his wife, asking if she had ordered anything.</p>
@@ -323,7 +373,10 @@
                 >The Bicep2 telescope, in the foreground, was used to detect the faint spiraling
                 gravity patterns — the signature of a universe being wrenched violently apart at its
                 birth.</span
-              ><span> <span class="credit"> Credit...</span><span>Steffen Richter/Associated Press</span></span>
+              ><span>
+                <span class="credit"> Credit...</span
+                ><span>Steffen Richter/Associated Press</span></span
+              >
             </figcaption>
           </figure>
           <p>
@@ -433,7 +486,7 @@
         <section class="space-and-astronomy">
           <h2 class="space-and-astronomy-header">More in Space and Astronomy</h2>
           <div class="display-flex space-and-astronomy-div">
-            <a href="" class="space-and-astronomy-anchore padding-left">
+            <a href="#" class="space-and-astronomy-anchore padding-left">
               <figure>
                 <img
                   class="space-and-astronomy-image"
@@ -450,7 +503,7 @@
                 Japan’s Journey to an Asteroid Ends With a Hunt in Australia’s Outback
               </h3>
             </a>
-            <a href="" class="space-and-astronomy-anchore">
+            <a href="#" class="space-and-astronomy-anchore">
               <figure>
                 <img
                   class="space-and-astronomy-image"
@@ -467,7 +520,7 @@
                 Jupiter and Saturn Head for Closest Visible Alignment in 800 Years
               </h3>
             </a>
-            <a href="" class="space-and-astronomy-anchore">
+            <a href="#" class="space-and-astronomy-anchore">
               <figure>
                 <img
                   class="space-and-astronomy-image"
@@ -487,7 +540,7 @@
           </div>
 
           <div class="display-flex space-and-astronomy-div border-bottom2">
-            <a href="" class="space-and-astronomy-anchore">
+            <a href="#" class="space-and-astronomy-anchore">
               <figure>
                 <img
                   class="space-and-astronomy-image"
@@ -505,7 +558,7 @@
               </h3>
             </a>
 
-            <a href="" class="space-and-astronomy-anchore">
+            <a href="#" class="space-and-astronomy-anchore">
               <figure>
                 <img
                   class="space-and-astronomy-image"
@@ -522,7 +575,7 @@
                 NASA Launched a Rocket 54 Years Ago. Has It Finally Come Home?
               </h3>
             </a>
-            <a href="" class="space-and-astronomy-anchore">
+            <a href="#" class="space-and-astronomy-anchore">
               <figure>
                 <img
                   class="space-and-astronomy-image"
@@ -543,7 +596,7 @@
 
           <h3 class="editors-picks-header">Editors’ Picks</h3>
           <div class="display-flex space-and-astronomy-div margin-bottom">
-            <a href="" class="space-and-astronomy-anchore padding-left">
+            <a href="#" class="space-and-astronomy-anchore padding-left">
               <figure>
                 <img
                   class="space-and-astronomy-image"
@@ -560,7 +613,7 @@
                 Japan’s Journey to an Asteroid Ends With a Hunt in Australia’s Outback
               </h3>
             </a>
-            <a href="" class="space-and-astronomy-anchore">
+            <a href="#" class="space-and-astronomy-anchore">
               <figure>
                 <img
                   class="space-and-astronomy-image"
@@ -577,7 +630,7 @@
                 Jupiter and Saturn Head for Closest Visible Alignment in 800 Years
               </h3>
             </a>
-            <a href="" class="space-and-astronomy-anchore">
+            <a href="#" class="space-and-astronomy-anchore">
               <figure>
                 <img
                   class="space-and-astronomy-image"
@@ -664,7 +717,7 @@
             </h3>
           </div>
         </section>
-      </section>
+      </div>
     </main>
 
     <footer class="footer">
@@ -675,20 +728,20 @@
         <div class="footer-div">
           <h3 class="footer-header display-flex">news</h3>
           <ul class="footer-unordered-list">
-            <li><a href="">Home Page</a></li>
-            <li><a href="">World</a></li>
-            <li><a href="">Coronavirus</a></li>
-            <li><a href="">U.S.</a></li>
-            <li><a href="">Politics</a></li>
-            <li><a href="">Election Result</a></li>
-            <li><a href="">New York</a></li>
-            <li><a href="">Business</a></li>
-            <li><a href="">Tech</a></li>
-            <li><a href="">Science</a></li>
-            <li><a href="">Sports</a></li>
-            <li><a href="">Obituaries</a></li>
-            <li><a href="">Today's Paper</a></li>
-            <li><a href="">Corrections</a></li>
+            <li><a href="#">Home Page</a></li>
+            <li><a href="#">World</a></li>
+            <li><a href="#">Coronavirus</a></li>
+            <li><a href="#">U.S.</a></li>
+            <li><a href="#">Politics</a></li>
+            <li><a href="#">Election Result</a></li>
+            <li><a href="#">New York</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Tech</a></li>
+            <li><a href="#">Science</a></li>
+            <li><a href="#">Sports</a></li>
+            <li><a href="#">Obituaries</a></li>
+            <li><a href="#">Today's Paper</a></li>
+            <li><a href="#">Corrections</a></li>
           </ul>
         </div>
 
@@ -697,48 +750,48 @@
           <ul class="footer-unordered-list">
             <li>Today's Opinion</li>
             <li>Op-Ed Columnists</li>
-            <li><a href="">Editorials</a></li>
-            <li><a href="">Letters</a></li>
-            <li><a href="">Sunday Review</a></li>
-            <li><a href="">Video: Opinion</a></li>
+            <li><a href="#">Editorials</a></li>
+            <li><a href="#">Letters</a></li>
+            <li><a href="#">Sunday Review</a></li>
+            <li><a href="#">Video: Opinion</a></li>
           </ul>
         </div>
 
         <div class="footer-div">
           <h3 class="footer-header display-flex">arts</h3>
           <ul class="footer-unordered-list">
-            <li><a href="">Today's Art</a></li>
-            <li><a href="">Art & Design</a></li>
-            <li><a href="">Books</a></li>
-            <li><a href="">Dance</a></li>
-            <li><a href="">Movies</a></li>
-            <li><a href="">Music</a></li>
-            <li><a href="">Pop Culture</a></li>
-            <li><a href="">Television</a></li>
-            <li><a href="">Theater</a></li>
-            <li><a href="">video:Arts</a></li>
+            <li><a href="#">Today's Art</a></li>
+            <li><a href="#">Art & Design</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Dance</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">Pop Culture</a></li>
+            <li><a href="#">Television</a></li>
+            <li><a href="#">Theater</a></li>
+            <li><a href="#">video:Arts</a></li>
           </ul>
         </div>
 
         <div class="footer-div">
           <h3 class="footer-header display-flex">living</h3>
           <ul class="footer-unordered-list">
-            <li><a href="">At Home</a></li>
-            <li><a href="">World</a></li>
-            <li><a href="">Automobiles</a></li>
-            <li><a href="">Games</a></li>
-            <li><a href="">Education</a></li>
-            <li><a href="">Food</a></li>
-            <li><a href="">Health</a></li>
-            <li><a href="">Job</a></li>
-            <li><a href="">Love</a></li>
-            <li><a href="">Magazine</a></li>
-            <li><a href="">Parenting</a></li>
-            <li><a href="">Real Estate</a></li>
-            <li><a href="">Recipes</a></li>
-            <li><a href="">Style</a></li>
-            <li><a href="">T Magazine</a></li>
-            <li><a href="">Travel</a></li>
+            <li><a href="#">At Home</a></li>
+            <li><a href="#">World</a></li>
+            <li><a href="#">Automobiles</a></li>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Health</a></li>
+            <li><a href="#">Job</a></li>
+            <li><a href="#">Love</a></li>
+            <li><a href="#">Magazine</a></li>
+            <li><a href="#">Parenting</a></li>
+            <li><a href="#">Real Estate</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Style</a></li>
+            <li><a href="#">T Magazine</a></li>
+            <li><a href="#">Travel</a></li>
           </ul>
         </div>
 
@@ -746,22 +799,22 @@
           <h3 class="footer-header display-flex">more</h3>
 
           <ul class="footer-unordered-list">
-            <li><a href="">Reader Center</a></li>
-            <li><a href="">Wirecutter</a></li>
-            <li><a href="">Live Event</a></li>
-            <li><a href="">The Learning Network</a></li>
-            <li><a href="">Tools & Services</a></li>
-            <li><a href="">Multimedia</a></li>
-            <li><a href="">Photography</a></li>
-            <li><a href="">Video</a></li>
-            <li><a href="">Newsletters</a></li>
-            <li><a href="">TimesMachine</a></li>
-            <li><a href="">NYT Stores</a></li>
-            <li><a href="">Times Journeys</a></li>
-            <li><a href="">Manage My Account</a></li>
-            <li><a href="">Style</a></li>
-            <li><a href="">T Magazine</a></li>
-            <li><a href="">Travel</a></li>
+            <li><a href="#">Reader Center</a></li>
+            <li><a href="#">Wirecutter</a></li>
+            <li><a href="#">Live Event</a></li>
+            <li><a href="#">The Learning Network</a></li>
+            <li><a href="#">Tools & Services</a></li>
+            <li><a href="#">Multimedia</a></li>
+            <li><a href="#">Photography</a></li>
+            <li><a href="#">Video</a></li>
+            <li><a href="#">Newsletters</a></li>
+            <li><a href="#">TimesMachine</a></li>
+            <li><a href="#">NYT Stores</a></li>
+            <li><a href="#">Times Journeys</a></li>
+            <li><a href="#">Manage My Account</a></li>
+            <li><a href="#">Style</a></li>
+            <li><a href="#">T Magazine</a></li>
+            <li><a href="#">Travel</a></li>
           </ul>
         </div>
 
@@ -769,7 +822,7 @@
           <h3 class="footer-header">subscribe</h3>
           <ul class="footer-unordered-list">
             <li>
-              <a href="" class="font-bolder">
+              <a href="#" class="font-bolder">
                 <svg class="subscribe-svg" viewBox="0 0 14 13" fill="#000">
                   <path
                     d="M13.1,11.7H3.5V1.2h9.6V11.7zM13.1,0.4H3.5C3,0.4,2.6,0.8,2.6,1.2v2.2H0.9C0.4,3.4,0,3.8,0,4.3v5.2v1.5c0,0.8,0.8,1.5,1.8,1.5h1.7h0h7.4h2.2c0.5,0,0.9-0.4,0.9-0.9V1.2C14,0.8,13.6,0.4,13.1,0.4"
@@ -782,7 +835,7 @@
               </a>
             </li>
             <li>
-              <a href="" class="font-bolder">
+              <a href="#" class="font-bolder">
                 <svg class="subscribe-svg" viewBox="0 0 10 13">
                   <path
                     fill="#000"
@@ -793,7 +846,7 @@
               </a>
             </li>
             <li>
-              <a href="" class="font-bolder">
+              <a href="#" class="font-bolder">
                 <svg class="subscribe-svg" viewBox="0 0 13 13" fill="#000">
                   <polygon points="0,-93.6 0,-86.9 6.6,-93.6"></polygon>
                   <polygon points="0.9,-86 7.5,-86 7.5,-92.6"></polygon>
@@ -818,7 +871,7 @@
               </a>
             </li>
             <li>
-              <a href="" class="font-bolder">
+              <a href="#" class="font-bolder">
                 <svg class="subscribe-svg" viewBox="0 0 13 13" fill="#000">
                   <path
                     d="M12,2.9L9.6,5.2c-0.1,0.1-0.3,0.1-0.4,0C9.1,5.2,9.1,5,9.3,4.9l2.4-2.4c-0.2-0.2-0.3-0.3-0.5-0.5L8.7,4.3c-0.1,0.1-0.3,0.1-0.4,0C8.2,4.3,8.2,4.1,8.4,4l2.4-2.4c-0.3-0.3-0.5-0.5-0.5-0.5L7.6,3.4C7.1,4,6.8,5.1,7.1,5.8c-1.4,1-4.6,3.5-5.1,4c-0.8,0.8-0.4,1.8-0.3,1.9c0,0,0,0,0,0c0,0,0,0,0,0c0.1,0.1,1.1,0.5,1.9-0.3c0.4-0.4,2.9-3.6,3.9-5C8.4,6.9,9.6,6.6,10.2,6l2.3-2.6C12.5,3.4,12.3,3.2,12,2.9z"
@@ -856,23 +909,28 @@
           </ul>
         </div>
       </section>
-      <ul class="display-flex padding-top">
+      <ul class="display-flex copyright-ul">
         <li>
           <a class="nyt-copyright" href="#">©&nbsp;<span>2021</span>The New York Times Company </a>
         </li>
-        <li><a class="nyt-copyright" href="">NYTCo</a></li>
-        <li><a class="nyt-copyright" href="">Contact-Us</a></li>
-        <li><a class="nyt-copyright" href="">Work with us </a></li>
-        <li><a class="nyt-copyright" href="">Advertise</a></li>
-        <li><a class="nyt-copyright" href="">T Brand Studio</a></li>
-        <li><a class="nyt-copyright" href="">Your Ads Choices</a></li>
-        <li><a class="nyt-copyright" href="">Private Policy</a></li>
-        <li><a class="nyt-copyright" href="">Terms of Services</a></li>
-        <li><a class="nyt-copyright" href="">Terms of Sale</a></li>
-        <li><a class="nyt-copyright" href="">Site Map</a></li>
-        <li><a class="nyt-copyright" href="">Help</a></li>
-        <li><a class="nyt-copyright" href="">Subscriptions</a></li>
+        <li><a class="nyt-copyright" href="#">NYTCo</a></li>
+        <li><a class="nyt-copyright" href="#">Contact-Us</a></li>
+        <li><a class="nyt-copyright" href="#">Work with us </a></li>
+        <li><a class="nyt-copyright" href="#">Advertise</a></li>
+        <li><a class="nyt-copyright" href="#">T Brand Studio</a></li>
+        <li><a class="nyt-copyright" href="#">Your Ads Choices</a></li>
+        <li><a class="nyt-copyright" href="#">Private Policy</a></li>
+        <li><a class="nyt-copyright" href="#">Terms of Services</a></li>
+        <li><a class="nyt-copyright" href="#">Terms of Sale</a></li>
+        <li><a class="nyt-copyright" href="#">Site Map</a></li>
+        <li><a class="nyt-copyright" href="#">Help</a></li>
+        <li><a class="nyt-copyright" href="#">Subscriptions</a></li>
       </ul>
+      <div class="fixed-position">
+        <p class="footer-paragraph">
+          <strong class="">Subscription for $0.25 a week.</strong> Ends today
+        </p>
+      </div>
     </footer>
   </body>
 </html>

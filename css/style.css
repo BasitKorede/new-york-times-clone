@@ -7,6 +7,7 @@
   top: 0;
   width: 100%;
   background-color: rgb(255, 255, 255);
+  z-index: 1;
 }
 
 .display-flex {
@@ -337,6 +338,7 @@ li a:hover {
   bottom: 0;
   width: 100%;
   background-color: rgb(255, 255, 255);
+  left: 0;
 }
 
 .footer-paragraph {

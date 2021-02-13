@@ -15,9 +15,9 @@ This Project is an assignment on element positioning in a webpage, this is to te
 - CSS
   - Flexbox
   - Floating Element
-  - Positining
+  - Positioning
   - Background properties
-  - Tseudo classes
+  - Pseudo classes
 
 ## Live Demo
 

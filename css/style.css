@@ -1,0 +1,350 @@
+.navigation {
+  justify-content: space-between;
+  padding: 5px 15px;
+  flex-grow: 1;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.nav-bar-image {
+  width: 15px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.border-bottom2 {
+  border-bottom: 1px solid #666;
+}
+
+.nav-bar-list {
+  margin: 5px 10px;
+}
+
+.space-comos {
+  font-weight: bolder;
+}
+
+.nav-button {
+  padding: 8px 4px;
+  background-color: rgb(83, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  color: #fff;
+  flex-grow: 1;
+  font-size: 76%;
+}
+
+.margin-right {
+  margin-right: 30px;
+}
+
+.decorate-text {
+  text-decoration: underline;
+  color: #00f;
+}
+
+.nav-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.article-header {
+  margin: 90px 10px 10px 10px;
+  font-style: italic;
+  font-size: 2.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  max-width: 55%;
+}
+
+.article-image {
+  display: block;
+}
+
+.article-image-details {
+  width: 60%;
+  line-height: 19px;
+  color: #666;
+  font-size: 80%;
+  margin: 10px 0 10px 10%;
+}
+
+.repoter {
+  color: #808080;
+  font-size: 13px;
+}
+
+.dennis-overbye {
+  margin: 30px 0 5px 30%;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.dennis-overbye-ul {
+  margin: 0 0 5px 30%;
+  font-size: 13px;
+}
+
+.align-center {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.aside-editors-pick {
+  position: absolute;
+  right: 48px;
+  width: 210px;
+}
+
+.aside-anchor {
+  width: 100%;
+  display: block;
+  padding-bottom: 8px;
+}
+
+.aside-figure {
+  width: 100%;
+}
+
+.aside-img-wrapper {
+  width: 40%;
+}
+
+.aside-img {
+  width: 100%;
+}
+
+.aside-figcaption {
+  width: 60%;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 8px;
+}
+
+.width-80-percent {
+  width: 80%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.margin-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inflation-theory-div {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  width: 80%;
+  color: #666;
+}
+
+.inflation-theory-section {
+  background-image: url(../images/inflation-theory-image.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.inflation-theory-section-paragraph {
+  max-width: 20%;
+  font-size: 70%;
+}
+
+.inflation-theory-section-paragraph-first-div {
+  margin: 17% 8px 0 40px;
+  line-height: normal;
+}
+
+.inflation-theory-section-paragraph-second-div {
+  margin: 31% 30px;
+  line-height: normal;
+}
+
+.bolder {
+  font-size: 80%;
+  font-weight: bolder;
+}
+
+.telescope-caption {
+  color: #666;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  margin-bottom: 40px;
+}
+
+.space-and-astronomy {
+  width: 65%;
+  border-top: 1px solid #000;
+  margin-right: 16px;
+  margin-left: 2.5%;
+}
+
+.space-and-astronomy-header {
+  font-size: 80%;
+  font-weight: bolder;
+}
+
+.space-and-astronomy-anchore {
+  padding: 10px;
+  width: 50%;
+}
+
+.space-and-astronomy-image {
+  width: 100%;
+}
+
+.figcaption {
+  color: #808080;
+  width: 100%;
+  font-size: 50%;
+  line-height: 1.23em;
+}
+
+.header-caption {
+  width: 100%;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  margin: 0;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.most-popular {
+  width: 28%;
+  border-top: 1px solid #000;
+  margin-left: 10px;
+}
+
+.most-popular-header {
+  font-size: 80%;
+}
+
+.most-popular-headings {
+  border-top: 1px solid rgb(226, 226, 226);
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding: 16px 0;
+  width: 100%;
+  line-height: 1.425rem;
+}
+
+.most-popular-anchor {
+  font-size: 1.325rem;
+  line-height: 1.125rem;
+  color: rgb(18, 18, 18);
+  font-weight: normal;
+  font-family: serif;
+}
+
+.editors-picks-header {
+  margin: 10px 0;
+}
+
+.margin-bottom {
+  margin-bottom: 200px;
+}
+
+.footer-header {
+  text-transform: uppercase;
+  line-height: 15px;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  display: flex;
+  font-size: 13px;
+}
+
+.footer {
+  margin: 30px;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+.new-york-times-image-anchor {
+  border-top: 1px solid rgb(226, 226, 226);
+  display: block;
+  margin-top: 1px;
+}
+
+.new-york-times-image {
+  margin-top: 10px;
+}
+
+.footer-div {
+  flex-grow: 1;
+  padding: 20px 0;
+}
+
+.footer-unordered-list li {
+  padding: 6px 0;
+  font-size: 93%;
+}
+
+.subscribe-svg {
+  width: 13px;
+  height: 13px;
+}
+
+.font-bolder {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.font-reduction {
+  font-size: 77%;
+}
+
+li a:hover {
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.nyt-copyright {
+  font-size: 73%;
+  padding: 10px;
+  color: #666;
+  font-weight: normal;
+}
+
+.border-left {
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 10px;
+}
+
+.copyright-ul {
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.fixed-position {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  left: 0;
+}
+
+.footer-paragraph {
+  margin-top: 20px;
+  padding: 20px 0;
+  border-top: 1px solid #000;
+  text-align: center;
+  font-size: 90%;
+}

@@ -1,4 +1,4 @@
-# Project Name
+# The New York Times
 
 > This project follows the guideline of [THE ODIN PROJECT](https://www.theodinproject.com/courses/html-and-css/lessons/grid) under the (course HTML and CSS) to clone a New York Times page [The New York Times](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0).
 > .
